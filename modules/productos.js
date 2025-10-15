@@ -1,4 +1,6 @@
-class Producto {
+import { EUR } from "../utils/utils";
+
+export class Producto {
     constructor(nombre, precio, rareza, tipo, bonus){
         this.nombre = nombre;
         this.precio = precio;
