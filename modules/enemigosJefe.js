@@ -4,7 +4,7 @@ class Enemigo {
         this.tipo = 'Enemigo';
         this.nombre = nombre;
         this.ataque = ataque;
-        this.vida = vida;
+        this.vida = vida; 
     }
 
     presentacion() {
@@ -31,15 +31,8 @@ Habilidad especial: ${this.habilidadEspecial}. Multiplicador de daño: ${this.mu
 }
 
 
+export {Enemigo, JefeFinal};
 
 
 
-
- const enemigo1 = new Enemigo('Ogro', 'Neckzilla', 2, 1);
- console.log(enemigo1.presentacion());
-
- const enemigo2 = new Enemigo('Troll', 'Thanos', 2, 1);
- console.log(enemigo1.presentacion());
-
- const jefeFinal = new JefeFinal('Monstruo', 'KingMuerte', 5, 3);
- console.log(jefe1.presentacion());
+ 
